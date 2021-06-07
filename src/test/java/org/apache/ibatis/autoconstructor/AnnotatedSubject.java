@@ -32,6 +32,9 @@ public class AnnotatedSubject {
     this.weight = weight;
   }
 
+  /**
+   * 指定以此构造方法映射相应属性值
+   */
   @AutomapConstructor
   public AnnotatedSubject(final int id, final String name, final int age, final Integer height, final Integer weight) {
     this.id = id;
